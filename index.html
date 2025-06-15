@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ntsikelelo Sithole | Profile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+  html {
+    scroll-behavior: smooth;
+  }
+</style>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            gold: '#FFD700',
+            black: '#000',
+            grayDark: '#1a1a1a',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-white text-black font-sans">
+
+<header class="bg-black text-white fixed w-full z-50 shadow-md">
+  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-lg md:text-xl font-bold text-gold tracking-widest uppercase">Olumi Films</h1>
+    <nav class="flex items-center gap-6 text-sm md:text-base font-semibold">
+      <a href="#home" class="hover:text-gold">Home</a>
+      <a href="#about" class="hover:text-gold">About</a>
+      <a href="#skills" class="hover:text-gold">Skills</a>
+      <a href="#download" class="hover:text-gold">Download</a>
+      <a href="Presentation4.pptx" download class="ml-4 bg-gold text-black px-4 py-2 rounded hover:bg-yellow-400 transition text-sm font-semibold">
+        📥 Download
+      </a>
+    </nav>
+  </div>
+</header>
+
+  <!-- Spacer for fixed nav -->
+  <div class="h-[70px]"></div>
+<!-- Hero -->
+<section id="home" class="h-[90vh] bg-black text-white flex items-center justify-center text-center px-6" style="background-image: url('pic2.jpg'); background-size: cover; background-position: center;">
+  <div class="bg-black bg-opacity-70 p-10 md:p-16 rounded-lg max-w-3xl shadow-lg">
+    <h2 class="text-4xl md:text-6xl font-extrabold text-gold mb-6 uppercase">Ntsikelelo Sithole</h2>
+    <p class="text-lg md:text-2xl tracking-wide">Creative Director • Videographer • Storyteller • Agent at CCI</p>
+  </div>
+</section>
+
+
+  <!-- About (Text Left, Image Right) -->
+  <section id="about" class="py-20 px-6 bg-white">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-bold text-gold mb-4 uppercase">About Ntsikelelo</h2>
+        <p class="text-gray-700 leading-relaxed">
+          Ntsikelelo is a graduate of Durban University of Technology (DUT) with a degree in Video Technology. He has contributed to popular TV productions such as <em>Uzalo</em>, <em>Imbewu</em>, and <em>Hostela</em>. He currently works at CCI while pursuing his creative goals in film and media.
+        </p>
+      </div>
+      <div class="md:w-1/2">
+        <img src="pic.jpg" alt="Ntsikelelo" class="rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills (Image Left, Text Right) -->
+  <section id="skills" class="py-20 px-6 bg-gray-50">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse items-center gap-10">
+      <div class="md:w-1/2">
+        <h2 class="text-3xl font-bold text-gold mb-4 uppercase">Skills</h2>
+        <ul class="list-disc list-inside text-gray-700 space-y-2">
+          <li>Direct and edit professional video content</li>
+          <li>Write scripts and visual storytelling pieces</li>
+          <li>Produce motivational media for teams</li>
+          <li>Lead creative campaigns from concept to delivery</li>
+        </ul>
+      </div>
+      <div class="md:w-1/2">
+        <img src="pic3.jpg" alt="Skills Showcase" class="rounded-lg shadow-lg" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Download Section (Linked from navbar) -->
+  <section id="download" class="py-20 bg-white text-center">
+    <h2 class="text-2xl font-bold text-gold uppercase mb-4">Download My Presentation</h2>
+    <p class="text-gray-600 mb-6">A quick overview of my creative proposal and media work at CCI and beyond.</p>
+    <a href="Presentation4.pptx" download class="bg-gold text-black px-6 py-3 rounded hover:bg-yellow-400 transition font-semibold">
+      📄 Download Now
+    </a>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-black text-white py-16 mt-10">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm">
+    
+    <!-- About -->
+    <div>
+      <h3 class="text-lg font-bold text-gold mb-2">About</h3>
+      <p>
+        Creative storyteller and video director passionate about elevating African narratives through film. Focused on impact, mentorship, and authentic representation.
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-lg font-bold text-gold mb-2">Contact</h3>
+      <p>Email: <a href="mailto:sitholentsikelelo@gmail.com" class="text-gold hover:underline">sitholentsikelelo@gmail.com</a></p>
+      <p>Phone: +27 72 123 4567</p>
+    </div>
+
+    <!-- Developer -->
+    <div>
+      <h3 class="text-lg font-bold text-gold mb-2">Developer</h3>
+      <p>
+        Proudly developed by <strong class="text-gold">Esgela Team</strong>, an online learning platform led by <strong>Onwabe Zibeke</strong>. Empowering creators through digital education.
+      </p>
+    </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
